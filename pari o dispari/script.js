@@ -15,7 +15,7 @@ console.log('JS OK!')
 
 */
 
-let sceltaUtente = String(prompt('pari o dispari?'))
+let sceltaUtente = String(prompt('Pari o Dispari?'))
 
 console.log('- scelta utente: ', sceltaUtente.trim().toLowerCase());
 
@@ -41,5 +41,6 @@ function generaNumeroRandom(min, max) {
 
     return ('Numero CPU: ' + generatedNumber);
 }
+
 
 
