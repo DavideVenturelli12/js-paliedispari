@@ -25,3 +25,21 @@ while (isNaN(numeroUtente) === true) {
     numeroUtente = parseInt(prompt('scegli un numero da uno a 5'));
 }
 console.log("Numero scelto dall'utente: ", numeroUtente);
+
+
+const random = Math.floor(Math.random() * 10) + 1;
+
+const randomResult = generaNumeroRandom(1, 5);
+
+console.log(randomResult);
+
+function generaNumeroRandom(min, max) {
+
+    const range = max - min + 1;
+
+    const generatedNumber = Math.floor(Math.random() * range) + min;
+
+    return ('Numero CPU: ' + generatedNumber);
+}
+
+
